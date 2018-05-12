@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Mi Formulario: Registro en nuestra tienda</title>
+  </head>
+  <body>
+    <form autocomplete="on" nombre="Form tienda">
+      <fieldset>
+        <legend>Formulario de registro</legend>
+        <h1>Registro en nuestra tienda</h1>
+          <label for="nombre">Nombre de usuario: </label><br/>
+          <input type="text" name="" id="nombre" placeholder="Ej: Luis">
+          <p></p>
+          <label for="email">Email: </label><br/>
+          <input type="email" name="" id="email" placeholder="Ej: luis@gmail.com">
+          <p></p>
+          <label for="edad">Edad: </label><br>
+          <input type="number" name="" id="edad" placehoder="Ej: 21">
+          <p></p>
+          <label for="genero">Género</label><br/>
+          <input type="radio" button="genero" value="masculino">Masculino<br/>
+          <input type="radio" button="genero" value="femenino">Femenino
+          <p></p>
+          <label for="lista01">Recomendado por: </label><br/>
+          <select>
+            <option>Google</option>
+            <option>Amigo</option>
+            <option>Redes Sociales</option>
+          </select>
+          <p></p>
+          <label for="textarea">Comentarios: </label><br/>
+          <textarea name="area_texto" rows="8" cols="80"></textarea>
+          <p></p>
+          <label for="check">Acepto términos y condiciones</label><br/>
+          <input type="checkbox" name="" value="">
+          <p></p>
+          <input type="submit" name="" value="registrar">
+      </fieldset>
+    </form>
+  </body>
+</html>
