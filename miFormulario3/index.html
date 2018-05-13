@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="witdh=divece_witdh, user-scalable=0">
+    <title>Formularios otros atributos</title>
+  </head>
+  <body>
+    <form autocomplete="on" name="Mi 3er formulario">
+      <fieldset>
+        <legend>Otros atributos que acompañan a name</legend>
+        <label for="name">name: </label>
+        <input type="text" name="" value="gato">
+        <p>name se dejo con comillas</p>
+        <p>value se tecleo gato</p>
+        <p>id</p>
+        <input type="email" id="email-usuario">
+        <p>disable</p>
+        <input type="text" disabled value="texto">
+        <p>readonly</p>
+        <input type="text" readonly value="texto">
+        <p>maxlength</p>
+        <input type="text" maxlength="3">
+        <p>max OJO ESTE FUNCIONA CON type="number"</p>
+        <input type="number" max="100">
+        <p>min OJO ESTE FUNCIONA CON type="number"</p>
+        <input type="number" min="10">
+        <p>step OJO ESTE FUNCIONA CON type="number"</p>
+        <input type="number" step="3">
+        <p>placeholder</p>
+        <input type="text" placeholder="escriba su nombre">
+      </fieldset>
+    </form>
+  </body>
+</html>
